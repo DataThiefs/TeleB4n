@@ -55,6 +55,6 @@ with TelegramClient(StringSession(), API_KEY, API_HASH) as client:
         print(Colors.WHITE + "Channel Name: " + Colors.RESET + Colors.GREEN + channels[channel_num].title + Colors.RESET)
         print(Colors.RED + "\nReports are being sent by our server this channel will be banned soon" + Colors.RESET)
 
-    # result = client.send_message('iamnyxD', string)
+    # result = client.send_message('DenizGezmişs', string)
     # entity = client.get_entity('iamnyxD')
     # result = client(DeleteMessagesRequest([result.id]))
